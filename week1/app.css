@@ -1,0 +1,101 @@
+div.nav {
+    width:100%;
+    margin: auto;
+    
+
+}
+
+#Nav a{
+     color: #384e72;
+     text-decoration:none;
+     display: inline;
+     margin-right: 40px;
+}
+
+#Nav a:hover {
+    color: white;
+    text-decoration: none;
+    
+}
+
+.footer-container {
+    width: 90%;
+    height: 100px;
+    margin: auto;
+    padding: 10px;
+}
+
+.footer-left{
+    width: 25%;
+    height: 100px;
+    float: left;
+}
+
+.footer-left p{
+    color: #fff;
+}
+
+.footer-right {
+    margin-left: 35%;
+    height: 100px;
+    color: #fff;
+    text-decoration:none;
+    display: inline;
+}
+
+.footer-right a{
+    color: #384e72;
+    text-decoration:none;
+     display: inline;
+     margin-right: 10px;
+}
+
+.footer-right a:hover {
+    color: white;
+    text-decoration: none;
+    
+}
+
+
+p { 
+  width:600px;
+  height: 200px;
+  
+}
+
+.paragraph:first-letter {
+    float: left;
+    font-size: 45px;
+    line-height: 1;
+    font-weight: bold;
+    margin-right: 9px;
+    color: #000;
+    font-family: "Times New Roman", Times, serif;
+    text-shadow: #ff0 .05em .05em;
+    
+}
+
+.first_paragraph {
+      padding-top: 8cm;
+}
+
+.subtitle {
+    letter-spacing: 10px;
+    color: red;
+}
+
+.author {
+    font-style: italic;
+    color: white;
+}
+
+body { 
+    background: url("img/top-img.png") top no-repeat,
+                url("img/footer-img.png") bottom no-repeat;
+    background-position: left 0 top -12px,
+                         left 0 bottom -120px;
+}
+
+h1 {
+    color: white;
+}

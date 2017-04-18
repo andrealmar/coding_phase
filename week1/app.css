@@ -1,12 +1,12 @@
 div.nav {
     width:100%;
     margin: auto;
-    
+
 
 }
 
 #Nav a{
-     color: #384e72;
+     color: #616382;
      text-decoration:none;
      display: inline;
      margin-right: 40px;
@@ -15,7 +15,7 @@ div.nav {
 #Nav a:hover {
     color: white;
     text-decoration: none;
-    
+
 }
 
 .footer-container {
@@ -53,14 +53,14 @@ div.nav {
 .footer-right a:hover {
     color: white;
     text-decoration: none;
-    
+
 }
 
 
-p { 
+p {
   width:600px;
-  height: 200px;
-  
+  height: 150px;
+
 }
 
 .paragraph:first-letter {
@@ -72,11 +72,25 @@ p {
     color: #000;
     font-family: "Times New Roman", Times, serif;
     text-shadow: #ff0 .05em .05em;
-    
+
 }
 
 .first_paragraph {
-      padding-top: 8cm;
+      padding-top: 5.5cm;
+}
+
+.third_paragraph {
+    float: right;
+    width:600px;
+    height: 150px;
+    margin-right:2%;
+}
+
+.fourth_paragraph {
+    float: right;
+    width:600px;
+    height: 150px;
+    margin-right:2%;
 }
 
 .subtitle {
@@ -89,7 +103,7 @@ p {
     color: white;
 }
 
-body { 
+body {
     background: url("img/top-img.png") top no-repeat,
                 url("img/footer-img.png") bottom no-repeat;
     background-position: left 0 top -12px,
@@ -98,4 +112,16 @@ body {
 
 h1 {
     color: white;
+}
+
+.last_paragraph {
+      padding-bottom: 7.5cm;
+}
+
+.video_container {
+    float: right;
+}
+
+.clearfix{
+    clear: both;
 }

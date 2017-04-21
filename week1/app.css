@@ -53,7 +53,6 @@ hr {
   transition: .3s ease-in-out;
 }
 
-
 a{
      color: #616382;
      text-decoration:none;
@@ -67,7 +66,6 @@ a:hover {
     text-decoration: none;
 
 }
-
 
 .footer-container {
     width: 90%;
@@ -92,6 +90,7 @@ a:hover {
     color: #fff;
     text-decoration:none;
     display: inline;
+    font: 300 100% 'Helvetica Neue', Helvetica, Arial;
 }
 
 .footer-right a{
@@ -163,7 +162,7 @@ h1 {
 
 body {
     background: url("img/top-img.png") no-repeat center center fixed;
-                /*url("img/footer-img.png") no-repeat; */
+                /*url("img/footer-img.png") no-repeat;*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;

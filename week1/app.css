@@ -1,22 +1,73 @@
 div.nav {
     width:100%;
     margin: auto;
-
+    font-family: sans-serif;
+    text-decoration: none; 
 
 }
 
-#Nav a{
+.menu {
+  width: 50%;
+  margin: 0 auto;
+  font: 300 100% 'Helvetica Neue', Helvetica, Arial;
+  padding: .75rem 0;
+  text-decoration: none;
+  text-align: center;
+}
+
+ul li {
+  display: inline;
+  text-align: center;
+}
+
+.one:hover ~ hr {
+  margin-left: 12%;
+  color: white;
+  text-decoration: none;
+}
+
+.two:hover ~ hr {
+  margin-left: 25%;
+  text-decoration: none;
+}
+
+.three:hover ~ hr {
+  margin-left: 42%;
+  text-decoration: none;
+}
+
+.four:hover ~ hr {
+  margin-left: 60%;
+}
+
+.five:hover ~ hr {
+  margin-left: 75%;
+}
+
+hr {
+  height: .15rem;
+  width: 10%;
+  margin: 0;
+  background: tomato;
+  border: none;
+  transition: .3s ease-in-out;
+}
+
+
+a{
      color: #616382;
      text-decoration:none;
      display: inline;
      margin-right: 40px;
 }
 
-#Nav a:hover {
+
+a:hover {
     color: white;
     text-decoration: none;
 
 }
+
 
 .footer-container {
     width: 90%;
@@ -60,6 +111,8 @@ div.nav {
 p {
   width:600px;
   height: 150px;
+  font-family: sans-serif;
+  line-height: 1.3em;
 
 }
 
@@ -88,6 +141,7 @@ h1 {
     width:600px;
     height: 150px;
     margin-right:2%;
+    
 }
 
 .fourth_paragraph {
@@ -108,10 +162,15 @@ h1 {
 }
 
 body {
-    background: url("img/top-img.png") top no-repeat,
-                url("img/footer-img.png") bottom no-repeat;
-    background-position: left 0 top -12px,
-                         left 0 bottom -120px;
+    background: url("img/top-img.png") no-repeat center center fixed;
+                /*url("img/footer-img.png") no-repeat; */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+/*    background-position: left 0 top -12px, */
+/*                         left 0 bottom -120px;*/
 }
 
 h1 {
@@ -136,7 +195,7 @@ h1 {
 input[type=text], select, textarea {
     width: 100%; /* Full width */
     padding: 12px; /* Some padding */  
-    border: 1px solid #ccc; /* Gray border */
+    border: 1px solid #616382; /* Gray border */
     border-radius: 4px; /* Rounded borders */
     box-sizing: border-box; /* Make sure that padding and width stays in place */
     margin-top: 6px; /* Add a top margin */
@@ -146,7 +205,7 @@ input[type=text], select, textarea {
 
 /* Style the submit button with a specific background color etc */
 input[type=submit] {
-    background-color: #4CAF50;
+    background-color: #616382;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -162,6 +221,6 @@ input[type=submit]:hover {
 /* Add a background color and some padding around the form */
 .container {
     border-radius: 5px;
-    background-color: #f2f2f2;
+    background-color: #fff;
     padding: 20px;
 }

@@ -1,18 +1,22 @@
-div.nav {
+/*div.nav {
     width:100%;
     margin: auto;
     font-family: sans-serif;
     text-decoration: none; 
 
-}
+} */
 
 .menu {
-  width: 50%;
+  width: 100%;
   margin: 0 auto;
   font: 300 100% 'Helvetica Neue', Helvetica, Arial;
   padding: .75rem 0;
   text-decoration: none;
   text-align: center;
+  position: fixed;
+  overflow: auto;
+  max-width: 1200;
+  top: 0;
 }
 
 ul li {

@@ -1,3 +1,35 @@
+#header {
+    background: white;
+    color: red;
+    /*display: inline-block;*/
+    overflow: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#topMenu {
+    display: inline-block;
+}
+
+.leftMenu {
+    display: inline-block;
+    margin-right: 25px;
+}
+
+.search {
+    display: inline-block;
+    margin-right: 100px;
+}
+
+.logo {
+    display: inline-block;
+}
+
+.rightMenu {
+    display: inline-block;
+    float: right;
+}
+
 #backgroundImage { 
   background: url(../img/background.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
@@ -8,9 +40,23 @@
  
  /* this is what made image background actualy... */
   position: fixed; 
-  top: 0; 
+  top: 1; 
   left: 0; 
   /* Preserve aspet ratio */
   min-width: 100%;
   min-height: 100%;
+}
+
+
+
+.card {
+    display: inline-block;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 20px;
+    padding: 10px;
+    background: white;
+    width:200px;
+    height:250px;
+    border:1px solid #d3d3d3;
 }

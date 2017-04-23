@@ -72,10 +72,16 @@ a:hover {
 }
 
 .footer-container {
-    width: 90%;
-    height: 100px;
+    max-width: 1200px;
+    height: 500px;
     margin: auto;
     padding: 10px;
+    background: url("img/footer-img.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
 }
 
 .footer-left{
@@ -165,13 +171,7 @@ h1 {
 }
 
 body {
-    background: url("img/top-img.png") no-repeat center center fixed;
-                /*url("img/footer-img.png") no-repeat;*/
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    height: 100%;
+    
 /*    background-position: left 0 top -12px, */
 /*                         left 0 bottom -120px;*/
 }
@@ -226,4 +226,20 @@ input[type=submit]:hover {
     border-radius: 5px;
     background-color: #fff;
     padding: 20px;
+}
+
+.topcontent {
+    background: url("img/top-img.png") no-repeat center center fixed;
+                /*url("img/footer-img.png") no-repeat;*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 600px;
+    width: 1200;
+}
+
+#parent {
+    max-width: 1200;
+
 }

@@ -1,12 +1,4 @@
-/*div.nav {
-    width:100%;
-    margin: auto;
-    font-family: sans-serif;
-    text-decoration: none; 
-
-} */
-
-.menu {
+nav {
   width: 100%;
   margin: 0 auto;
   font: 300 100% 'Helvetica Neue', Helvetica, Arial;
@@ -17,6 +9,7 @@
   overflow: auto;
   max-width: 1200;
   top: 0;
+  
 }
 
 ul li {
@@ -29,6 +22,11 @@ ul li {
   color: white;
   text-decoration: none;
 }
+
+#topcontent nav ul li .active {
+          color: #ffffff;
+          padding-bottom: 4px;
+          border-bottom: 2px solid #c2002e; }
 
 .two:hover ~ hr {
   margin-left: 25%;
@@ -71,19 +69,6 @@ a:hover {
 
 }
 
-.footer-container {
-    max-width: 1200px;
-    height: 500px;
-    margin: auto;
-    padding: 10px;
-    background: url("img/footer-img.png") no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-
-}
-
 .footer-left{
     width: 25%;
     height: 100px;
@@ -117,47 +102,8 @@ a:hover {
 }
 
 
-p {
-  width:600px;
-  height: 150px;
-  font-family: sans-serif;
-  line-height: 1.3em;
-
-}
-
 h1 {
     font-size: 3.5em;
-}
-
-.paragraph:first-letter {
-    float: left;
-    font-size: 45px;
-    line-height: 1;
-    font-weight: bold;
-    margin-right: 9px;
-    color: #000;
-    font-family: "Times New Roman", Times, serif;
-    text-shadow: #ff0 .05em .05em;
-
-}
-
-.first_paragraph {
-      padding-top: 5.5cm;
-}
-
-.third_paragraph {
-    float: right;
-    width:600px;
-    height: 150px;
-    margin-right:2%;
-    
-}
-
-.fourth_paragraph {
-    float: right;
-    width:600px;
-    height: 150px;
-    margin-right:2%;
 }
 
 .subtitle {
@@ -178,14 +124,6 @@ body {
 
 h1 {
     color: white;
-}
-
-.last_paragraph {
-      padding-bottom: 7.5cm;
-}
-
-.video_container {
-    float: right;
 }
 
 .clearfix{
@@ -229,14 +167,19 @@ input[type=submit]:hover {
 }
 
 .topcontent {
-    background: url("img/top-img.png") no-repeat center center fixed;
+    background: url("../img/top-img.png") no-repeat center center fixed;
                 /*url("img/footer-img.png") no-repeat;*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    height: 600px;
-    width: 1200;
+/* this is what made image background actualy... */
+ position: fixed;
+ top: 0;
+ left: 0;
+ /* Preserve aspet ratio */
+ min-width: 100%;
+ min-height: 100%;
 }
 
 #parent {

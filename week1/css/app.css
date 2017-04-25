@@ -1,0 +1,289 @@
+/*div.nav {
+    width:100%;
+    margin: auto;
+    font-family: sans-serif;
+    text-decoration: none; 
+
+} */
+
+nav {
+  width: 100%;
+  margin: 0 auto;
+  font: 300 100% 'Helvetica Neue', Helvetica, Arial;
+  padding: .75rem 0;
+  text-decoration: none;
+  text-align: center;
+  position: fixed;
+  overflow: auto;
+  max-width: 1200;
+  top: 0;
+}
+
+ul li {
+  display: inline;
+  text-align: center;
+}
+
+.one:hover ~ hr {
+  margin-left: 12%;
+  color: white;
+  text-decoration: none;
+}
+
+.topcontent nav ul li .active {
+          color: #ffffff;
+          padding-bottom: 4px;
+          border-bottom: 2px solid #c2002e; }
+
+.two:hover ~ hr {
+  margin-left: 25%;
+  text-decoration: none;
+}
+
+.three:hover ~ hr {
+  margin-left: 42%;
+  text-decoration: none;
+}
+
+.four:hover ~ hr {
+  margin-left: 60%;
+}
+
+.five:hover ~ hr {
+  margin-left: 75%;
+}
+
+hr {
+  height: .15rem;
+  width: 10%;
+  margin: 0;
+  background: tomato;
+  border: none;
+  transition: .3s ease-in-out;
+}
+
+a{
+     color: #616382;
+     text-decoration:none;
+     display: inline;
+     margin-right: 40px;
+}
+
+
+a:hover {
+    color: white;
+    text-decoration: none;
+
+}
+
+.footer-container {
+    max-width: 1200px;
+    height: 500px;
+    margin: auto;
+    padding: 10px;
+    background: url("../img/footer-img.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+     /* Preserve aspet ratio */
+    min-width: 100%;
+    min-height: 100%;
+
+}
+
+.footer-left{
+    width: 25%;
+    height: 100px;
+    float: left;
+}
+
+.footer-left p{
+    color: #fff;
+}
+
+.footer-right {
+    margin-left: 35%;
+    height: 100px;
+    color: #fff;
+    text-decoration:none;
+    display: inline;
+    font: 300 100% 'Helvetica Neue', Helvetica, Arial;
+}
+
+.footer-right a{
+    color: #384e72;
+    text-decoration:none;
+     display: inline;
+     margin-right: 10px;
+}
+
+.footer-right a:hover {
+    color: white;
+    text-decoration: none;
+
+}
+
+
+p {
+  width:600px;
+  height: 150px;
+  font-family: sans-serif;
+  line-height: 1.3em;
+
+}
+
+h1 {
+    font-size: 3.5em;
+}
+
+.paragraph:first-letter {
+    float: left;
+    font-size: 45px;
+    line-height: 1;
+    font-weight: bold;
+    margin-right: 9px;
+    color: #000;
+    font-family: "Times New Roman", Times, serif;
+    text-shadow: #ff0 .05em .05em;
+
+}
+
+.first_paragraph {
+      padding-top: 5.5cm;
+}
+
+.third_paragraph {
+    float: right;
+    width:600px;
+    height: 150px;
+    margin-right:2%;
+    
+}
+
+.fourth_paragraph {
+    float: right;
+    width:600px;
+    height: 150px;
+    margin-right:2%;
+}
+
+.subtitle {
+    letter-spacing: 15px;
+    color: red;
+}
+
+.author {
+    font-style: italic;
+    color: white;
+}
+
+body {
+    
+/*    background-position: left 0 top -12px, */
+/*                         left 0 bottom -120px;*/
+}
+
+h1 {
+    color: white;
+}
+
+.last_paragraph {
+      padding-bottom: 7.5cm;
+}
+
+.video_container {
+    float: right;
+}
+
+.clearfix{
+    clear: both;
+}
+
+
+/* contaqct form css */
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #616382; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #616382;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 20px;
+}
+
+.topcontent {
+    background: url("../img/top-img.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 600px;
+    width: 1200px;
+
+ /* Preserve aspet ratio */
+ min-width: 100%;
+ min-height: 100%;
+}
+
+#parent {
+    max-width: 1200;
+
+}
+
+#img-top {
+    height: 436px;
+    width: 100%;
+ 
+    }
+
+#topcontent #title {
+    text-align: center;
+    color: #ffffff;
+    font-size: 60px;
+    font-family: 'Noto Serif', serif;
+    font-weight: 100;
+    position: relative;
+    top: 160px; }
+  #topcontent #subtitle {
+    text-align: center;
+    color: #c2002e;
+    font-family: Arial, sans-serif;
+    font-weight: 100;
+    position: relative;
+    top: 160px;
+    text-transform: uppercase;
+    letter-spacing: 17px; }
+
+#topcontent #credit {
+    text-align: center;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    font-style: italic;
+    font-weight: 100;
+    position: relative;
+    top: 200px; }

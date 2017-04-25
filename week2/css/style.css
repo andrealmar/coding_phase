@@ -1,33 +1,20 @@
-#header {
-    background: white;
-    color: red;
-    /*display: inline-block;*/
-    overflow: auto;
-    padding-left: 10px;
-    padding-right: 10px;
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
 }
 
-#topMenu {
-    display: inline-block;
-}
-
-.leftMenu {
-    display: inline-block;
-    margin-right: 25px;
-}
-
-.search {
-    display: inline-block;
-    margin-right: 100px;
-}
-
-.logo {
-    display: inline-block;
-}
-
-.rightMenu {
-    display: inline-block;
-    float: right;
+.boards-icon {
+  margin-right: 130px;
 }
 
 #backgroundImage { 
@@ -39,24 +26,10 @@
   background-color: #D3D3D3;
  
  /* this is what made image background actualy... */
-  position: fixed; 
+  position: relative; 
   top: 1; 
   left: 0; 
-  /* Preserve aspet ratio */
+  /* Preserve aspect ratio */
   min-width: 100%;
   min-height: 100%;
-}
-
-
-
-.card {
-    display: inline-block;
-    margin-left: 40px;
-    margin-right: 40px;
-    margin-top: 20px;
-    padding: 10px;
-    background: white;
-    width:200px;
-    height:250px;
-    border:1px solid #d3d3d3;
 }
